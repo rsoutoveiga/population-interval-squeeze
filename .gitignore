@@ -1,0 +1,74 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# R ignore from Github
+# History files
+scripts/.Rhistory
+scripts/.Rapp.history
+
+# Session Data files
+scripts/.RData
+
+# Example code in package build process
+scripts/*-Ex.R
+
+# Output files from R CMD build
+scripts/*.tar.gz
+
+# Output files from R CMD check
+scripts/*.Rcheck/
+
+# RStudio files
+scripts/.Rproj.user/
+
+# produced vignettes
+scripts/vignettes/*.html
+scripts/vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+scripts/.httr-oauth
+
+# knitr and R markdown default cache directories
+scripts/*_cache/
+scripts/cache/
+
+# Temporary files created by R markdown
+scripts/*.utf8.md
+scripts/*.knit.md
+
+# Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
+scripts/rsconnect/
+
+# Folders
+
+scripts/plots
